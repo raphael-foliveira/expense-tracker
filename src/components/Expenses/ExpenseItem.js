@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import './ExpenseItem.css';
 import ExpenseDate from './ExpenseDate';
-import Card from './Card';
-import { click } from '@testing-library/user-event/dist/click';
+import Card from '../UI/Card';
 
 
 function ExpenseItem(props){
